@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void handleSendImage(Intent incomingIntent) {
-        Uri imageUri = (Uri) incomingIntent.getParcelableExtra(Intent.EXTRA_STREAM);
+        Uri imageUri = incomingIntent.getParcelableExtra(Intent.EXTRA_STREAM);
         if (imageUri != null) {
             Intent lensIntent = new Intent();
             lensIntent.setComponent(new ComponentName("com.google.android.apps.photos", "com.google.android.apps.photos.lens.oem.LensActivity"));
