@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Quick Share To Google Lens</string>
+    <string name="warning_text">If you\'re seeing this screen, you\'ve either:\n* Started this app directly\n* Shared something other than an image\n* The share is formed as */* instead of image/*\n\nTry sharing images from Google Photos.\n\nNote: If files are still streaming as a result of downloading from Google Photos, they may fail to appear in Google Lens on the first attempt. Simply wait a moment and retry. This issue and some of the others listed above will be fixed in an update.</string>
+</resources>
